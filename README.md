@@ -53,3 +53,18 @@ To run the tests, use the following command:
 
 ```bash
 python manage.py test
+
+This project uses GitHub Actions for continuous integration. The workflow is defined in the .testing.yml file.
+
+The CI workflow includes steps for:
+
+Setting up Python environment
+Installing dependencies
+Running tests with coverage
+Generating coverage report
+Test results and coverage report will be visible on GitHub Pages.
+
+GitHub Pages
+The CI workflow generates a GitHub Pages site with the test results and coverage report. You can access it at:
+
+
